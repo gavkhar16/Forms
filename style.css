@@ -1,0 +1,107 @@
+h1 {color: #693b91;}
+h2 {color: #1175a7; }
+h3 {color: blue;}
+.sur {color: #e42424;}
+.bib {color: #45c222;}
+.dos{color: aquamarine;}
+.opia{color: antiquewhite;}
+.jam{color: #1175a7;}
+#far{width: 150px;}
+#ncz{width: 250px;}
+#sup{width: 200px;}
+.sok{color: #81c308;}
+.sok{width: 200pt;}
+.uh {color: #45c222;}
+h4 {color: #81c308;}
+label{
+    display: block;
+}
+input {
+    display: block;
+}
+input[type="radio"]{
+    display:inline;
+}
+.world {
+    cursor: pointer;
+    transition: 500ms;
+}
+.world {
+    color: #e42424;
+    font-size: 30px;
+}
+.zoomer li:first-child{
+    color:#504d93;
+    font-weight: 700;
+
+}
+
+@media (max-width:1700px){
+    body{
+        background-color:green ;
+    }
+    .sur {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+}
+@media (max-width: 975px){
+    body{
+        background-color: blue;
+    }
+    #sup{
+        height: 300px;
+    }
+    .boomer li{
+        font-weight: 600;
+    }
+}
+ .jam {
+    cursor: default;
+    transition: cursor 900ms;
+}
+
+.jam:hover {
+    cursor: pointer;
+}
+ .jam:hover  {
+    color: #e42424;
+    font-size: 30px;
+ }
+ .boomer li:first-child{
+    color: #223fc2;
+    font-weight: 900;
+ }
+.boomer li:last-child{
+    color: aqua;
+    font-weight: 900;
+}
+.boomer li:nth-child(2){
+    color: #e42424
+    ;
+}
+.boomer li:hover{
+    background-color: #8996d3;
+}
+.boomer li:nth-child(3n+4){
+    color: aliceblue;
+}
+.logo{
+    display: none;
+}
+input[type="checkbox"]:checked + .logo{
+display:block
+}
+.boomer li:hover::after{
+    content: " ребенок";
+}
+.boomer li:hover::before{
+content:"";
+background-image: url(./Без\ названия.png);
+display: inline-block;
+width: 30px;
+height: 30px;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+}

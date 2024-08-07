@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./stayl.css">
+</head>
+<body>
+    <body>
+        <h1 class="world"> Мой жизненный путь </h1>
+        <h3 class="sur">Хабибуиллаева Гавхар </h3>
+        <p class="uh">Родилась весной 2003 в 16 мая ( 21 год). В 3 года пошла в садик</p>
+        
+        <p class="bib"> В 2009 году пошла в певвый класс. Школу закончила 2021 </p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwRY9lDXEuVLv-784OfF7AQhWcOMVlBn8WbA&s">
+
+        <p class="dos">2021 по сегодняшний день учится в ташкентском государственном педагогическом университете имени Низами
+          (сейчас на каникулах)
+          Опыт работы: Воспитатель</p>
+        
+          <img src="./photo_2024-07-25_20-41-34.jpg" alt="foto">
+        <h3 class="zoomer">Чем я занималась</h3>
+    
+        <ul>
+          <li>изучала немецкий, корейский, английский</li>
+          <li>занималась плаванием</li>
+          <Li>художественная гимнастика</Li>
+          <li> изучала биологию </li>
+          <li>изучала русский язык и литературу</li>
+          <li>изучаю детскую психологию</li>
+        </ul>
+        <h3 class="opia">Дети в семье</h3>
+        <ol class="boomer">
+          <li>Старшая</li>
+          <li>Гавхар</li>
+          <li>Средний</li>
+          <li>Младший</li>
+          <li>Старшая</li>
+          <li>Гавхар</li>
+          <li>Средний</li>
+          <li>Младший</li>
+          <li>Старшая</li>
+          <li>Гавхар</li>
+          <li>Средний</li>
+          <li>Младший</li>
+        </ol>
+      
+        <h1 class="jam">Мои неудачные проекты</h1>
+        <ol type="A">
+          <LI> <a href="https://t.me/Aspire_and_inspire">Aspire to inspire</a> </LI>
+          <li> <a href="https://pin.it/711ViQ2Gj">Oddiy ingliz tili</a></li>
+          <li> <a href="https://www.instagram.com/aspire_to_inspires?igsh=dG1wZnlrMW02OG91">Aspire to inspire</a></li>
+        </ol>
+        <h4>мои контакты</h4>
+        <a href="https://t.me/gaviawi">мой телеграм аккаутнт</a>
+        <form>
+          <label for="">
+            Введите ваше имя
+            <input type="text" name="user_name" placeholder="ваше имя">
+          </label>
+          <label for="">
+            ваш пароль
+            <input type="password" name="user_pass">
+          </label>
+          <label for="">
+            Введите номер
+            <input type="tel" name="user_tel" required maxlength="12" readonly value="900908989">
+          </label>
+          <label for="">
+            <input type="checkbox">
+            согласно ли вы с условиями
+          </label>
+          <label for="">
+            Вам есть 18
+      
+            <label class="age" for="">
+              <input type="radio" name="age_+18">
+              да
+            </label>
+            <label for="">
+              <input type="radio" name="age_+18">
+              нет
+            </label>
+            <input type="checkbox">
+            <img src="./photo_2024-07-25_20-41-34.jpg" class="logo">
+            <input type="submit">
+            <input type="reset">
+      
+          </label>
+        </form>
+        <label for="">
+          первое число
+          <input type="number" name="x">
+        </label>
+        <label for="">
+          второе число
+          <input type="number" name="y">
+        </label>
+        <label for="">
+          <button onclick="sum()">+</button>
+          <button onclick="room()">-</button>
+          <button onclick="led()">*</button>
+          <button onclick="winx()">/</button>
+          <div class="result"> результат: <span name="total"></span> </div>
+        </label>
+        выбери фильm
+       <label for=""><select name="" id="movie">
+        <option value=""> barbie</option>
+        <option value="">toy story</option>
+        <option value="">nemo</option>
+        <option value="">bambe</option>
+      </select>
+      </label>
+        
+      <label for="">
+        оставь доброе слово на напуствие 
+        <textarea name="" id="">
+          
+        </textarea>
+      </label>
+      <section>
+<div class="dynamickForm">
+  <h1>Оставить заявку</h1>
+  <label for="">
+    имя:
+    <input type="text">
+  </label>
+  <label for="">
+    Страна
+    <select name="country" id="countrySelect" oninput="codeCountry()" >
+      <option value="none">Выберите страну</option>
+      <option value="uz">Узбекистан</option>
+      <option value="ru">Россия</option>
+      <option value="usa">USA</option>
+    </select>
+  </label>
+  <label for="">
+    Номер телефона:
+    <input type="text" name="phone">
+  </label>
+  <label for="">
+    <input type="checkbox" name="check" oninput="activeButton()">
+    Потвердите
+
+  </label>
+
+  <input type="button" disabled value="отправить" name="btn">
+
+</div>
+<section>
+        <div class="corseForm">
+
+        <H1>Канкулятор стоимости обучение</H1>
+        <label for="">
+          Курс:
+      <select name="" id="courseSelect" oninput="corseForm()">
+        <option value="none">Выерите курс </option>
+        <option value="Frontent"> Frontent</option>
+        <option value="Pyton">Pyton</option>
+        <option value="Data">Data аналитика</option>
+
+      </select>
+    </label>
+    <div>
+      <h2>Скидка</h2>
+      <input type="range" name="sale" oninput="check()" min="0" max="50" step="5">
+      <span id="SaleRate"></span>
+    </div>
+    <label for="">  
+      Сумма
+      <input type="text" id="totalPrice"  readonly>
+    </label>
+        </div>
+      </section>
+      <div class="phoneForm">
+        <h2>Ввод номера телефона</h2>
+        <label for="">Номер телефона
+<input type="tel" name="userPhone">
+        </label>
+        
+      </div>
+      
+        <H2 class="sok"> спасибо за внимание!</H2>
+
+      
+    <script src="./main.js"></script>
+</body>
+</html>
